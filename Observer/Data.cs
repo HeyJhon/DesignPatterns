@@ -3,7 +3,7 @@ namespace DesignPatterns.Observer
     public class Data : Subject
     {
         private int cantidad;
-        private string descripcion;
+        private string? descripcion;
         private List<Observer> Suscriptores;
         public Data()
         {
